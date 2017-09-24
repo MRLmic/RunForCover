@@ -12,7 +12,7 @@ curl "${API}${URL_PATH}" \
     "title": "'"${TITLE}"'",
     "performed_by": "'"${PERFORMED_BY}"'",
     "written_by": "'"${WRITTEN_BY}"'",
-    "year_performed": "'"${YEAR_PERFORMED}"'"
+    "year": "'"${YEAR}"'"
   }
 }'
 
