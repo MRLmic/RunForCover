@@ -18,7 +18,7 @@
 <h3>ERD</h3>
 <p>One to many relationship.
 A user has many songs.
-User--|------<Songs</p>
+User--|------< Songs</p>
 <ul>
 <li><a href=https://imgur.com/a/BLw60>WireFrames</a></li>
 </ul>
