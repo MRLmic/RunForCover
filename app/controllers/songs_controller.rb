@@ -1,9 +1,10 @@
-class SongsController < OpenReadController
+class SongsController < ProtectedController
   before_action :set_song, only: [:show, :update, :destroy]
 
   # GET /songs
   def index
-    @songs = Song.all
+    # @songs = Song.where(:user_id => current_user.id)
+    @songs = current_user.songs.all
 
     render json: @songs
   end
